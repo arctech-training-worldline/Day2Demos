@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -43,18 +45,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataTypesSample\DataTypesSample5.cs" />
+    <Compile Include="DataTypesSample\DataTypesSample3.cs" />
+    <Compile Include="DataTypesSample\DataTypesSample2.cs" />
+    <Compile Include="DataTypesSample\DataTypesSample1.cs" />
+    <Compile Include="DataTypesSample\DataTypesSample4.cs" />
+    <Compile Include="Demo\Demo02ValueTypes.cs" />
+    <Compile Include="Demo\Demo01ValueTypes.cs" />
+    <Compile Include="Demo\Demo03ValueTypes.cs" />
+    <Compile Include="Demo\Demo04ValueTypes.cs" />
+    <Compile Include="Demo\Demo05Stack.cs" />
+    <Compile Include="Demo\Demo06Pointers.cs" />
     <Compile Include="EmployeeService\Employee.cs" />
     <Compile Include="EmployeeService\EmployeeManagement.cs" />
     <Compile Include="EmployeeService\IEmployeeManagement.cs" />
+    <Compile Include="LeaveService\Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="document\2021-12-28 - Session 1.pdf" />
+    <None Include="document\Data Types, Variables &amp; Literals - Part 1.pdf" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="LeaveService\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

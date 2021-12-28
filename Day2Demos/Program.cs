@@ -1,4 +1,5 @@
-﻿using Day2Demos.EmployeeService;
+﻿using Day2Demos.Demo;
+using Day2Demos.EmployeeService;
 using System;
 using System.Collections.Generic;
 
@@ -8,7 +9,12 @@ namespace Day2Demos
     {
         static void Main(string[] args)
         {
-            TestEmployeeManagement();
+            Demo06Pointers.Test();
+            //Demo05Stack.Test();
+            //Demo01ValueTypes.Test();
+            //Demo02ValueTypes.Test();
+            //Demo04ValueTypes.Test();
+            //TestEmployeeManagement();
             //TestLeaveManagement();
         }
 
