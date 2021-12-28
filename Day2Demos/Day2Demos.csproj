@@ -46,7 +46,6 @@
     <Compile Include="EmployeeService\Employee.cs" />
     <Compile Include="EmployeeService\EmployeeManagement.cs" />
     <Compile Include="EmployeeService\IEmployeeManagement.cs" />
-    <Compile Include="HumanResources\HrPortal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
